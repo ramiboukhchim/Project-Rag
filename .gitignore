@@ -1,0 +1,41 @@
+Environnements virtuels
+rag-env/
+venv/
+env/
+
+Variables d'environnement
+.env
+.env.*
+
+Fichiers Python compilés et caches
+pycache/
+*.py[cod]
+*$py.class
+
+Données et fichiers générés (ne pas versionner)
+dataset/
+clean_dataset/
+chunks.pkl
+embeddings.pkl
+*.pkl
+*.index
+tourismse.index
+faiss_index/
+*.db
+
+Logs et temporaires
+*.log
+*.tmp
+*.cache
+
+IDEs / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+Clés / secrets
+secrets.json
+credentials.json
+*.key
+*.pem
